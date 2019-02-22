@@ -1,0 +1,10 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block content0 %}
+    <link rel="stylesheet" href="{% static 'css/showword.css' %}">
+{% endblock %}
+{% block content1 %}
+    <div class="cstory">
+        {{ result }}
+    </div>
+{% endblock %}

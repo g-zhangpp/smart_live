@@ -1,0 +1,19 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block content0 %}
+    <link rel="stylesheet" href="{% static 'css/camera.css' %}">
+{% endblock %}
+{% block content1 %}
+    <div class="cstory">
+        <form action="{% url 'getmg' %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <span class="n_story">
+                {{msg}}
+                <input type="file" name="pic" value="上传照片" class="img">
+            </span>
+            <span class="t_story">
+                <input type="submit" name="sub" value="开始搜索" class="sub">
+            </span>
+        </form>
+    </div>
+{% endblock %}

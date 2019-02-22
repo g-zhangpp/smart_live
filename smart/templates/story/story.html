@@ -1,0 +1,23 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block content0 %}
+    <link rel="stylesheet" href="{% static 'css/story.css' %}">
+{% endblock %}
+{% block content1 %}
+    <div class="cstory">
+        <form action="{% url 'talk' %}" method="post" class="s_t_story">
+        {% csrf_token %}
+            <span class="n_story">
+                选择故事:
+                <select name="s" id="s">
+                    {% for story in s %}
+                        <option value={{ story.name }}>{{ story.name }}</option>
+                    {% endfor %}
+                </select>
+            </span>
+            <span class="t_story">
+                <input type="submit" name="sub" value="开始讲解" class="sub">
+            </span>
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding:0}
+.all{
+    width:1365px;
+    /*height: 70px;*/
+    border: 1px solid #ffaaaa;
+}
+.first{
+    height:70px;
+    background-color: #4f8dfe;
+}
+.fc li{
+    margin:0;
+    float:left;
+    list-style-type: none;
+    line-height: 70px;
+    margin-left:120px;
+}
+.fc li a{
+    text-decoration: none;
+    color: #000;
+}
+.middle{
+    height:570px;
+    margin-top:10px;
+}
+.middle ul li{
+    margin:0;
+    float:left;
+    list-style-type: none;
+    margin-right:5px;
+}
+.middle ul li a{
+    text-decoration: none;
+}
+.last{
+    height: 50px;
+    background-color: #000;
+   margin-top:10px;
+}
+.last ul li{
+    margin:0;
+    float:left;
+    list-style-type: none;
+    line-height: 50px;
+    margin-left:220px;
+}
+.last ul li a{
+    text-decoration: none;
+    color: #c0c0c0;
+}
+
+

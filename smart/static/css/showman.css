@@ -1,0 +1,15 @@
+.cstory{
+    width : 240px;
+    height : 280px;
+    border : 1px solid #000000;
+    margin: auto;
+}
+.show_r{
+    width : 500px;
+    height : 250px;
+    border : 1px solid #000000;
+    margin: auto;
+    background-color: silver;
+    overflow: auto;
+    text-align: center;
+}

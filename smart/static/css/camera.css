@@ -1,0 +1,27 @@
+.cstory{
+    width : 400px;
+    height : 300px;
+    background-color: #4f8dfe;
+    margin: auto;
+}
+.n_story{
+    padding-top:100px;
+    margin-left: 125px;
+    display:block;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.t_story{
+    display:block;
+    margin-left: 125px;
+    margin-bottom: 110px;
+    font-size: 30px;
+}
+.img{
+    width:150px;
+    height: 40px;
+}
+.sub{
+    width:145px;
+    height: 40px;
+}

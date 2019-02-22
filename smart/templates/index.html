@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>智慧生活</title>
+    <link rel="stylesheet" href="/static/css/know.css">
+    {% block content0 %}
+    {% endblock %}
+</head>
+<body>
+    <div class="all">
+        <div class="first">
+            <ul class="fc">
+                <li><a href="/smart/index/">首页</a></li>
+                <li><a href="/smart/story/">睡前故事</a></li>
+                <li><a href="/smart/camera/">颜值相机</a></li>
+                <li><a href="/smart/loadman/">搜索公众人物</a></li>
+                <li><a href="/smart/loadpage/">图文转化</a></li>
+                <li><a href="/smart/loadanimal/">动物识别</a></li>
+                <li><a href="#">登录</a></li>
+            </ul>
+        </div>
+        <div class="middle">
+            {% block content1 %}
+            <ul>
+                <li><a href="#"><img src="/static/image/photo.jpg" alt="美颜相机"></a></li>
+                <li><a href="#"><img src="/static/image/voice.jpg" alt="语音识别"></a></li>
+                <li><a href="#"><img src="/static/image/story.jpg" alt="语音合成"></a></li>
+                <li><a href="#"><img src="/static/image/photo1.jpg" alt="人脸对比"></a></li>
+            </ul>
+            {% endblock %}
+        </div>
+        <div class="last">
+            <ul>
+
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">查看帮助</a></li>
+                <li><a href="#">VIP服务</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

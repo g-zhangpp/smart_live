@@ -1,0 +1,27 @@
+.cstory{
+    width : 240px;
+    height : 310px;
+    border : 1px solid #000000;
+    margin: auto;
+}
+.show_r{
+    width : 300px;
+    height : 100px;
+    border : 1px solid #000000;
+    margin: auto;
+    background-color: silver;
+}
+.show_r span{
+    padding-top:10px;
+    display: block;
+    float : left;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.age{
+    margin-right:80px;
+}
+.beauty{
+    margin-right:50px;
+}
